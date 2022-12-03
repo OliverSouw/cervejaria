@@ -5,7 +5,7 @@ function verificaIdade(valor) {
     if (valor === 1) {
         window.location.href = 'home.html';
     } else {
-        window.location.href = 'siteNegado.html';
+        window.location.href = 'bloq.html';
     }
     
 }
