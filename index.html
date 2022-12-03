@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervejaria do Pericles</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <h1 id="cabecalho">
+        Bem-vindo à <br>
+        Cervejaria do Pericles Delivery
+    </h1>
+
+    <img class="cerveja-img" src="/assets/img/cervejas.png" alt="">
+
+    <section>
+        <div class="cartao">
+            <p class="maior-idade">
+                Você é maior de 18 anos?
+            </p>
+            <div class="btn">
+                <button id="btn-sim" class="btn-resposta" onclick="verificaIdade(1)">Sim</button>
+                <button class="btn-resposta" onclick="verificaIdade(0)">Não</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="/assets/js/script.js"></script>
+
+</body>
+</html>
